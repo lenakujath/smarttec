@@ -26,10 +26,10 @@ const Features = () => {
                         </p>
                         <button className="learn-button">Learn More</button>
                     </div>
-                    <img src={Chip}/>
+                    <img src={Chip} alt="Chip_Icon"/>
                 </div>
                 <div className="feature-container">
-                <img src={Kubernetes} />
+                <img src={Kubernetes} alt="Kubernetes_Icon" />
                     <div className="text-right">
                         <h2>Managed Kubernetes Cluster</h2>
                         <p>Es lässt sich nicht eindeutig feststellen wann dieser Text zum ersten Mal verwendet wurde und von wem.
@@ -46,7 +46,7 @@ const Features = () => {
                         </p>
                         <button className="learn-button">Learn More</button>
                     </div>
-                    <img src={Cloud}/>
+                    <img src={Cloud} alt="Cloud_Icon"/>
                 </div>
             </div>
           </>

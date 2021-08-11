@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../button/Button';
 import './InfoText.css';
 
 
@@ -13,7 +12,6 @@ const InfoText = ({src, alt, title, text, buttonDisplay = 'none', buttonText }) 
                     <h2>{title}</h2>
                     <p>{text}</p>
                      <button className="main-button" style={{display: buttonDisplay}}>{buttonText}</button>
-                    
                 </div>
             </section>
           </>
