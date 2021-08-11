@@ -21,9 +21,17 @@
 
 .learn-button {
     border: 2px solid #6ec72d;
-    box-shadow: 3px 5px 5px #6ec72e;
+    box-shadow: 3px 5px 5px lightgrey;
     padding: 4px 8px;
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .feature-container {
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
 }

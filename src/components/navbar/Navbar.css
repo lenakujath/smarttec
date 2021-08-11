@@ -6,7 +6,6 @@
 
 header {
     padding: 1em 0;
-    /* max-width: 100%; */
     background-color: white;
 }
 
@@ -19,16 +18,37 @@ nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    /* justify-content: space-between; */
 }
 
 nav li {
     margin-left: 3em;
-    
+    cursor: pointer;
+    padding: 1em 0;
+    /* transition-timing-function: ease-in-out;
+    transition: 0.5s; */
+}
+
+nav li:hover {
+    font-weight: bold;
 }
 
 nav a {
     text-decoration: none;
     font-weight: 700;
     padding: .25em 0;
+    
+}
+
+.current:hover {
+    border-bottom: 1px solid #50850c;
+}
+
+@media (max-width: 760px) {
+    .container-nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+       flex-direction: column;
+    }
 }

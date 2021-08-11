@@ -1,6 +1,5 @@
 footer {
     color: black;
-    
     background: url('Netz_Footer.svg') no-repeat center center; 
     background-size: cover;
     background-color: #e8fcce;
@@ -35,3 +34,16 @@ h4, .bottom-line, .email {
 .bottom-right p {
     padding-left: 2em;
 } 
+
+@media (max-width: 750px) {
+    .container-footer, .bottom-line {
+        flex-direction: column;
+    }
+
+    .footer-right, .col-left, .bottom-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}

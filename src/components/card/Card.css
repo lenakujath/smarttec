@@ -13,9 +13,18 @@
 .card-content {
     padding-bottom: 10em;
 }
+.card-content h3, .card-content p {
+    padding: 0 5em;
+}
 
 .card img {
     width: 5em;
     padding-top: 4em;
     margin: auto 0;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 80%;
+    }
 }

@@ -3,3 +3,11 @@
     width: 35em;
     margin: 0 auto;
 }
+
+
+@media (max-width: 760px) {
+    .container-info {
+        width: 60%;
+    }
+
+}

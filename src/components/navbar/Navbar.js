@@ -15,10 +15,10 @@ const Navbar = () => {
                     </div>
                     <nav>
                         <ul>
-                            <li>Unsere Mission</li>
-                            <li>Leistungen</li>
-                            <li>Blog</li>
-                            <li>Kontakt</li>
+                            <li className="current">Unsere Mission</li>
+                            <li className="current">Leistungen</li>
+                            <li className="current">Blog</li>
+                            <li className="current">Kontakt</li>
                         </ul>
                     </nav>
                 </div>
