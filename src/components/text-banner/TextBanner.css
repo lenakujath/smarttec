@@ -1,0 +1,6 @@
+.text-banner {
+    background: url('Netz_Fragen_Details.svg') no-repeat center center; 
+    background-size: cover;
+    background-color: #e8fcce;
+    margin: 5em 0;
+}

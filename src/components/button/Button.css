@@ -1,0 +1,10 @@
+.main-button {
+    color: black;
+    background-color: #6ec72d;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    box-shadow: 7px 10px 5px lightgrey;
+}

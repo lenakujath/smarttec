@@ -1,0 +1,37 @@
+footer {
+    color: black;
+    
+    background: url('Netz_Footer.svg') no-repeat center center; 
+    background-size: cover;
+    background-color: #e8fcce;
+    padding: 5em 0;
+}
+
+.container-footer, .bottom-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right, .bottom-right {
+    display: flex;
+}
+
+.col-right {
+    padding: 0 5em;
+}
+
+h4, .bottom-line, .email {
+    color: #50850c;  
+}
+
+.email {
+    font-weight: bolds;
+}
+
+.bottom-line {
+    padding: 3em 0;
+}
+
+.bottom-right p {
+    padding-left: 2em;
+} 
