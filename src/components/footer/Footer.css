@@ -38,12 +38,23 @@ h4, .bottom-line, .email {
 @media (max-width: 750px) {
     .container-footer, .bottom-line {
         flex-direction: column;
+
     }
 
-    .footer-right, .col-left, .bottom-right {
+    .logo-title   {
+        padding: 0;
+        display: inline-block;
+    }
+    .logo-title h1  {
+        padding: 0;
+        display: inline-block;
+        margin-right: 2em;
+    }
+
+    .col-left, .footer-right,  .bottom-right {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
-
-    
+ 
 }

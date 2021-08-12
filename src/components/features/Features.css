@@ -30,10 +30,6 @@
     transition:  0.08s ease-in;
 }
 
-/* .learn-button:hover{
-    letter-spacing: 0.5em;
-  } */
-
   .learn-button:before{
     content: "→";
     position: absolute;
@@ -57,11 +53,31 @@
     background: none;
   }
 
+@media (min-width: 751px) {
+  .mobile {
+    display: none;
+  }
+}
+
 
 @media (max-width: 750px) {
+  .desktop {
+    display: none;
+  }
+
     .feature-container {
-        width: 40%;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        padding-top: 1em;
     }
+
+    .text-left {
+      padding-right: 0;
+  }
+  
+  .text-right {
+      padding-left: 0;
+  }
 }

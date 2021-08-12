@@ -5,16 +5,15 @@ import Kubernetes from './Icon_KubernetesCluster.svg';
 import Chip from './Icon_Chip.svg';
 import Cloud from './Icon_Cloud.svg';
 import Fade from 'react-reveal/Fade';
-import FeaturesMobile from './FeaturesMobile';
 
 
 
-const Features = () => {
+const FeaturesMobile = () => {
 
   
     return (
         <>
-            <div className="container desktop">
+            <div className="container mobile">
                 <InfoText 
                     title="Unsere Leistungen" 
                     text="Dieser Text liegt in verschiedenen Variationen vor, auf dieser Website finden sie Transliterationen
@@ -23,15 +22,15 @@ const Features = () => {
                 />
                 <Fade left>
                     <div className="feature-container">
-                        <div className="text-left">
+                        <img src={Chip} alt="Chip_Icon"/>
+                        <div className="text-left">    
                             <h2>Virtuelle Maschinen</h2>
                             <p>Text zum ersten Mal verwendet wurde und von wem.
                             Die englische Firma Letraset in Ashford, Kent, benutzt diesen Text seit über siebzig Jahren um ihre 
                             Schrifttypen. 
                             </p>
                             <button className="learn-button">Learn More</button>
-                        </div>
-                        <img src={Chip} alt="Chip_Icon"/>
+                        </div>     
                     </div>
                 </Fade>
                 <Fade right>
@@ -48,6 +47,7 @@ const Features = () => {
                 </Fade>
                 <Fade left>
                     <div className="feature-container">
+                    <img src={Cloud} alt="Cloud_Icon"/>
                         <div className="text-left">
                             <h2>Edge Cloud</h2>
                             <p>Es lässt sich nicht eindeutig feststellen wann dieser Text zum ersten Mal verwendet wurde und von wem.
@@ -55,13 +55,11 @@ const Features = () => {
                             </p>
                             <button className="learn-button">Learn More</button>
                         </div>
-                        <img src={Cloud} alt="Cloud_Icon"/>
                     </div>
                 </Fade>
             </div>
-            <FeaturesMobile/>
           </>
     );
 }
 
-export default Features;
+export default FeaturesMobile;

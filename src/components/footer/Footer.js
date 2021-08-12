@@ -13,8 +13,8 @@ const Footer = () => {
                         <div className="col-left">
                         <Fade left>
                             <div className="logo-title">
-                            <img src={Bird} style={{width: '5em'}} alt="LIMEBIRD_Logo"/>
-                            <h1>LIME<span>BIRD</span></h1>                          
+                                <img src={Bird} style={{width: '5em'}} alt="LIMEBIRD_Logo"/>
+                                <h1>LIME<span>BIRD</span></h1>                          
                             </div>
                         </Fade>
                             <p>Angaben gemäß §5 TMG <br/>LIMEBIRD Gmbh</p>
