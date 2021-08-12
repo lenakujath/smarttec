@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <>
-            <header>
+            <header >
                 <div className="container container-nav"> 
                     <div className="logo-title">
                         <img src={Bird} style={{width: '5em'}} alt="LIMEBIRD_Logo"/>

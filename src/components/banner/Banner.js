@@ -8,7 +8,7 @@ const Banner = () => {
 
     return (  
           
-            <div className="banner">
+            <div className="container banner">
                 <Zoom>
                   <div className="banner-text">
                       <h1 className="fade-in">The Green Cloud <br/> Computing Company</h1>

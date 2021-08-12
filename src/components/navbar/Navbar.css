@@ -14,6 +14,10 @@ header {
     color: #50850c;
 }
 
+.logo-title h1 {
+  margin-right: 2em;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -24,8 +28,6 @@ nav li {
     margin-left: 3em;
     cursor: pointer;
     padding: 1em 0;
-    /* transition-timing-function: ease-in-out;
-    transition: 0.5s; */
 }
 
 nav li:hover {
@@ -46,9 +48,14 @@ nav a {
 @media (max-width: 760px) {
     .container-nav {
         flex-direction: column;
+    
     }
 
     nav ul {
        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
     }
 }

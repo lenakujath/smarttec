@@ -6,7 +6,7 @@ const InfoText = ({src, alt, title, text, buttonDisplay = 'none', buttonText }) 
 
     return (
         <>
-            <section >
+            <section className="container" >
                 <div className="container-info">
                     <img src={src} style={{width: '5em'}} alt={alt}/>
                     <h2>{title}</h2>

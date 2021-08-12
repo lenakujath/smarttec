@@ -16,8 +16,8 @@ body {
     /* background-color: red; */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .container {
-        align-content: center;
+        text-align: center;
     }
 }
