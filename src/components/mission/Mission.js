@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Mission.css';
 import InfoText from '../infotext/InfoText';
 import Card from '../card/Card';
@@ -6,6 +6,7 @@ import CO2 from './Icon_CO2.svg';
 import Map from './Icon_Germany_Map.svg';
 import Earth from './Icon_EarthLeaves.svg';
 import Button from '../button/Button';
+import Fade from 'react-reveal/Fade';
 
 
 const Mission = () => {
@@ -13,6 +14,7 @@ const Mission = () => {
     return (
         <>
             <div className="container">
+              <Fade top>
                 <InfoText title="Unsere Mission" 
                           text="Dieser Text liegt in verschiedenen Variationen vor, auf dieser Website finden sie Transliterationen
                           des Textes für Kyrillisch (also russisches Lorem Ipsum), Griechisch und Armenisch, da sich die 
@@ -38,6 +40,7 @@ const Mission = () => {
                     cardText="Der Text liegt in vielen Variationen vor auf dieser Website"
                   />
                 </div>
+                </Fade>
                 <Button button="Mehr erfahren"/>
             </div>
           </>

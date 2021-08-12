@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Advantages.css';
 import Card from '../card/Card';
 import Resilient from './Icon_Resilient.svg';
@@ -6,8 +6,8 @@ import Dezentral from './Icon_Dezentral.svg';
 import Nachhaltig from './Icon_Nachhaltigkeit.svg';
 
 
-const Mission = () => {
-  
+const Advantages = () => {
+
     return (
         <>
             <div className="container">
@@ -40,4 +40,4 @@ const Mission = () => {
     );
 }
 
-export default Mission;
+export default Advantages;

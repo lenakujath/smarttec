@@ -26,6 +26,15 @@
     border-radius: 6px;
     font-weight: bold;
     cursor: pointer;
+    transition: all .5s;
+}
+
+.learn-button:hover{
+    letter-spacing: 0.5em;
+  }
+
+.hide {
+    display: none;
 }
 
 @media (max-width: 750px) {

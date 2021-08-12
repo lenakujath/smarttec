@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import Bird from './Icon_Bird.svg';
+import Fade from 'react-reveal/Fade';
 
 
 const Footer = () => {
@@ -10,10 +11,12 @@ const Footer = () => {
                 <div className="container">
                     <div className="container-footer">
                         <div className="col-left">
+                        <Fade left>
                             <div className="logo-title">
                             <img src={Bird} style={{width: '5em'}} alt="LIMEBIRD_Logo"/>
-                            <h1>LIME<span>BIRD</span></h1>
+                            <h1>LIME<span>BIRD</span></h1>                          
                             </div>
+                        </Fade>
                             <p>Angaben gemäß §5 TMG <br/>LIMEBIRD Gmbh</p>
                             <p>Dossenheimer Str.32 <br/> 68775 Ketsch</p>   
                         </div>

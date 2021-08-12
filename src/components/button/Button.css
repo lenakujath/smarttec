@@ -1,10 +1,37 @@
 .main-button {
+    position: relative;
     color: black;
-    background-color: #6ec72d;
-    border: none;
+    background: none;
+    border: 1px solid #6ec72d;
     border-radius: 3px;
     font-weight: bold;
     padding: 1em 1.5em;
     cursor: pointer;
     box-shadow: 7px 10px 5px lightgrey;
+    transition:  0.s5 ease-in;
+    overflow: hidden;
+    z-index: 1;
+
 }
+
+/* .main-button:hover {
+    color: white;
+  } */
+  
+  .main-button:before {
+    content: "";
+    position: absolute;
+    background: #6ec72d;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    top: 0;
+    z-index: -1;
+    transition: right 0.5s ease-in;
+  }
+  
+  .main-button:hover:before {
+    right: 0;
+  }
+
+
