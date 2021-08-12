@@ -6,7 +6,6 @@ import CO2 from './Icon_CO2.svg';
 import Map from './Icon_Germany_Map.svg';
 import Earth from './Icon_EarthLeaves.svg';
 import Button from '../button/Button';
-import Fade from 'react-reveal/Fade';
 
 
 const Mission = () => {

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Advantages.css';
 import Card from '../card/Card';
 import Resilient from './Icon_Resilient.svg';
 import Dezentral from './Icon_Dezentral.svg';
 import Nachhaltig from './Icon_Nachhaltigkeit.svg';
-import Fade from 'react-reveal/Fade';
+
 
 
 const Advantages = () => {
