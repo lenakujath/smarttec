@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React  from 'react';
 import './Mission.css';
 import InfoText from '../infotext/InfoText';
 import Card from '../card/Card';
@@ -13,13 +13,13 @@ const Mission = () => {
   
     return (
         <>
-            <div className="container">
-              <Fade top>
+            <div className="container">        
                 <InfoText title="Unsere Mission" 
                           text="Dieser Text liegt in verschiedenen Variationen vor, auf dieser Website finden sie Transliterationen
                           des Textes für Kyrillisch (also russisches Lorem Ipsum), Griechisch und Armenisch, da sich die 
                           Alphabete dieser Sprachen für eine Ersetzung Buchstaben für Buchstaben eignen."
                 />
+                {/* <Fade top> */}
                 <div className="card-container">
                   <Card 
                     cardSymbol={CO2}
@@ -40,7 +40,7 @@ const Mission = () => {
                     cardText="Der Text liegt in vielen Variationen vor auf dieser Website"
                   />
                 </div>
-                </Fade>
+                {/* </Fade> */}
                 <Button button="Mehr erfahren"/>
             </div>
           </>

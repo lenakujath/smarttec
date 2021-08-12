@@ -7,18 +7,21 @@ import Cloud from './Icon_Cloud.svg';
 import Fade from 'react-reveal/Fade';
 
 
+
 const Features = () => {
 
   
     return (
         <>
             <div className="container">
+            
                 <InfoText 
                     title="Unsere Leistungen" 
                     text="Dieser Text liegt in verschiedenen Variationen vor, auf dieser Website finden sie Transliterationen
                             des Textes für Kyrillisch (also russisches Lorem Ipsum), Griechisch und Armenisch, da sich die 
                             Alphabete dieser Sprachen für eine"
                 />
+          
                 <Fade left>
                     <div className="feature-container">
                         <div className="text-left">

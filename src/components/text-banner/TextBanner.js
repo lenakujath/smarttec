@@ -3,7 +3,6 @@ import './TextBanner.css';
 import InfoText from '../infotext/InfoText';
 import Bird from './Icon_Bird.svg';
 
-
 const TextBanner = () => {
 
     return (
